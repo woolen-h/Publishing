@@ -1,0 +1,53 @@
+body * {
+  box-sizing: border-box;
+}
+body.main-page header {
+  width: 100%;
+}
+body.main-page header > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+}
+body.main-page header > ul > li {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+body.main-page header > ul > li .logo {
+  color: red;
+  font-weight: bold;
+}
+body.main-page header > ul > li:nth-child(2) {
+  width: 30%;
+  font-size: 1rem;
+}
+body.main-page header > ul > li ul {
+  display: flex;
+  justify-content: space-between;
+}
+body.main-page main {
+  width: 100%;
+}
+body.main-page main .landing {
+  height: 100vh;
+  background-color: #ddd;
+  color: #fff;
+  margin: 0 2.5rem;
+  padding: 3rem 6rem;
+  text-transform: uppercase;
+  background-image: url("https://images.unsplash.com/photo-1514195385834-0853a6eda41c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+body.main-page main .landing h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+body.main-page main .landing h1.main-title {
+  margin-bottom: 2rem;
+}
+body.main-page main .landing h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body.main-page main .landing h3.sub-title {
+  margin-bottom: 0.75rem;
+}/*# sourceMappingURL=style.css.map */
