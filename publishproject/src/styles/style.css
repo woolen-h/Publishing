@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+}
 body * {
   box-sizing: border-box;
 }
@@ -33,7 +36,7 @@ body.main-page main .landing {
   background-color: #ddd;
   color: #fff;
   margin: 0 2.5rem;
-  padding: 3rem 6rem;
+  padding: 4.5rem 4.5rem;
   text-transform: uppercase;
   background-image: url("https://images.unsplash.com/photo-1514195385834-0853a6eda41c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
@@ -50,4 +53,53 @@ body.main-page main .landing h3 {
 }
 body.main-page main .landing h3.sub-title {
   margin-bottom: 0.75rem;
+}
+body.main-page main section[class^=section-] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+body.main-page main section[class^=section-].vertical-dis {
+  justify-content: space-between;
+  gap: 10px;
+}
+body.main-page main section[class^=section-].vertical-dis .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100vh;
+  margin: 0 2.5rem;
+}
+body.main-page main section[class^=section-].vertical-dis .text .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #aaa;
+}
+body.main-page main section[class^=section-].vertical-dis .text .artist-name {
+  margin-top: 20px;
+}
+body.main-page main section[class^=section-].vertical-dis .text .exhibit-name {
+  margin-top: 5px;
+}
+body.main-page main section[class^=section-].vertical-dis .text .date {
+  margin-top: 20px;
+}
+body.main-page main section[class^=section-].vertical-dis .text button {
+  margin-top: 40px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem 2rem;
+}
+body.main-page main section[class^=section-].vertical-dis .art {
+  width: 70%;
+}
+body.main-page main section[class^=section-].vertical-dis .art img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
